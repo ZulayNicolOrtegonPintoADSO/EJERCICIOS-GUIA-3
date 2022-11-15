@@ -90,3 +90,6 @@ li:hover {
     }
 }
 
+.x{
+    max-width: max-content;
+}

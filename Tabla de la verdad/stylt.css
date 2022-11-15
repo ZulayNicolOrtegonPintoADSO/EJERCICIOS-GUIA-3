@@ -1,7 +1,12 @@
+*{
+    background-color: rgb(189, 239, 239);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 h1{
     margin: 10px;
     font-size: 40px;
     text-align: center;
+    color: #f70c81;
 }
 
 h2{
@@ -31,7 +36,7 @@ table{
 }
 
 td, th{
-    border: solid 1px black
+    border: solid 1px black;
 }
 th{
     background-color: #f70c81;

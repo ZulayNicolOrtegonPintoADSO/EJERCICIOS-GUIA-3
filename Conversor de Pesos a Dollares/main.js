@@ -24,5 +24,4 @@ function proceso(){
         }
     }else{
         convertir.innerText="Para que funciones debes poner \n Números Positivos"
-    }
 }

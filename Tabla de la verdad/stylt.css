@@ -1,0 +1,39 @@
+h1{
+    margin: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2{
+    margin: 10px;
+    font-size: 20px;
+}
+
+h3{
+    margin: 10px;
+    font-size: 15px;
+}
+
+li{
+    font-size: 15px;
+    text-align: center;
+
+}
+
+table{
+    margin: 0px auto;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+td, th{
+    border: solid 1px black
+}
+th{
+    background-color: #f70c81;
+    color: white;
+}

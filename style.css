@@ -84,12 +84,9 @@ li:hover {
     display: block;
 }
 
-@media (max-width:900px) {
-    .logo-danicodex {
-        display: none;
-    }
-}
-
-.x{
-    max-width: max-content;
+img{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

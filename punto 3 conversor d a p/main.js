@@ -11,15 +11,15 @@ function proceso(){
     rta=0
     if(d >= 1 || p >= 1){
         if(d >= 1 && p >= 1){
-            convertir.innerText="Señor usuario, solo dijite en un campo: \n PESOS o DOLLARES"
+            convertir.innerText="Señor usuario, solo dijite en un campo: \n PESOS o DOLARES"
         }else{
             if(d >= 1){
                 rta= d*4805,31
-                convertir.innerText="La cantidad de dollares en pesos Colombianos es:"+ rta
+                convertir.innerText="La cantidad de dolares en pesos Colombianos es:"+ rta
             }
             if(p >= 1){
                 rta= p/4805,31
-                convertir.innerText="La cantidad de pesos Colombianos en dollares es:"+rta
+                convertir.innerText="La cantidad de pesos Colombianos en dolares es:"+rta
             }
         }
     }else{

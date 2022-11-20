@@ -4,20 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tareas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Plan detallado</title>
+    <script src="main.js" type="text/javascript" defer></script>
 </head>
 <body>
-    <h1>Suponiendo que nos encontramos descansando en una nuestra casa en una ciudad de Colombia requiero hacer un plan detallado para llegar a tiempo a mi sitio de trabajo el día siguiente.  </h1>
-
-    <label>Digite aquí el paso a agregar: </label>
-    <input type="text" id="txt">
-
-    <label>Digite aquí el tiempo estimado para realizar la acción </label>
-    <input type="text" id="tiempo">
-
-    
-
-    <script src="main.js"></script>
+    <div class="list roundBorder">
+        <div class="date">
+            <div class="dateRight">
+                <div id="dateNumber"></div>
+                <div>
+                    <div id="dateMonth"></div>
+                    <div id="dateYear"></div>
+                </div>
+            </div>
+            <div id="dateText"></div>
+        </div>
+        <form onsubmit="addNewTask(event)" >
+            <input type="text" name="taskText" autocomplete="off" placeholder="Nueva tarea" class="roundBorder">
+            <button type="submit" class="addTaskButton">+</button>
+            <button type="button" class="orderButton roundBorder" onclick="renderOrderedTasks()">Ordenar</button>
+        </form>
+        <div id="tasksContainer"></div>
+    </div>
 </body>
 </html>

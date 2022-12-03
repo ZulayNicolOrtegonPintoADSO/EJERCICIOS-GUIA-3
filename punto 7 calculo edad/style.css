@@ -1,0 +1,24 @@
+*{
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0px;
+    background-color: rgb(122, 80, 161);
+    font-family: 'Nerko One', cursive;
+    color:rgb(255, 255, 255);
+}
+
+h1{
+    font-size: 60px;
+    
+}
+
+input{
+    font-size: 60px;
+    border-color: rgb(247, 0, 132);
+    border-radius: 50px;
+    border-width: 10px;
+}
+
+p{
+    font-size: 50px;
+}

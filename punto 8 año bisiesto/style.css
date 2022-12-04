@@ -1,0 +1,29 @@
+*{
+    text-align: center;
+    border: none;
+    font-family: 'Zen Dots', cursive;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 30px;
+}
+input{
+    font-size: 50px;
+    background-color: rgb(194, 181, 181);
+    border-radius: 100px;
+    margin: 20px;
+}
+
+label{
+    font-size: 50px;
+}
+
+button{
+    font-size: 50px;
+    border-radius: 100px;
+}
+
